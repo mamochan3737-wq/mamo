@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>福重綾佳 - 映像編集者ポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#hero" class="nav-link">ホーム</a>
+            <a href="#about" class="nav-link">自己紹介</a>
+            <a href="#portfolio" class="nav-link">ポートフォリオ</a>
+            <a href="#services" class="nav-link">サービス</a>
+            <a href="#contact" class="nav-link">お問い合わせ</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <img id="hero-image" src="images/トップページ.jpg" alt="Futuristic and mysterious cityscape at night">
+            <div class="hero-content">
+                <h1>mamo</h1>
+                <p>映像編集者</p>
+                <a href="#portfolio" class="cta-button">制作実績を見る</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>自己紹介</h2>
+            <div class="about-container">
+                <img src="images/自己紹介.jpg" alt="mamoのプロフィール写真">
+                <div class="about-text">
+                    <p>
+                        はじめまして、mamoと申します。映像編集者として、物語を伝える力と視聴者を引き込む映像作りを追求しています。
+                    </p>
+                    <p>
+                        YouTube動画の編集をメインに活動しています。私の作った映像が世界中の人々に届き、楽しんでもらえることが何よりの喜びです。
+                    </p>
+                    <p>
+                        使用ソフト: Adobe Premiere Pro, Photoshop, YMM4, Gemini
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>ポートフォリオ</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <video src="videos/ポートフォリオ1.mp4" controls muted loop playsinline></video>
+                </div>
+                <div class="portfolio-item">
+                    <video src="videos/ポートフォリオ２.mp4" controls muted loop playsinline></video>
+                </div>
+                <div class="portfolio-item">
+                    <video src="videos/ポートフォリオ3.mp4" controls muted loop playsinline></video>
+                </div>
+                <div class="portfolio-item">
+                    <video src="videos/ポートフォリオ４.mp4" controls muted loop playsinline></video>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>サービス</h2>
+            <div class="services-container">
+                <div class="service-item">
+                    <h3>YouTube動画編集</h3>
+                    <p>企画、カット編集、テロップ、BGM・効果音、カラーグレーディングまで一貫して対応します。</p>
+                </div>
+                <div class="service-item">
+                    <h3>企業向け映像制作</h3>
+                    <p>会社紹介、製品プロモーション、イベント記録など、ビジネスの目的達成に貢献する映像を制作します。</p>
+                </div>
+                <div class="service-item">
+                    <h3>AI動画生成</h3>
+                    <p>最新のAI技術を駆使し、テキストや画像から高品質な動画コンテンツを生成します。プロモーション、SNSコンテンツなど、あらゆるニーズに対応可能です。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <p>ご依頼・ご相談は、以下のフォームよりお気軽にご連絡ください。</p>
+            <form id="contact-form" action="https://formspree.io/f/mdkwgjzj" method="POST">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="_replyto" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">メッセージ</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 mamo. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
